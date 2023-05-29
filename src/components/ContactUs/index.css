@@ -1,0 +1,101 @@
+.contact-us-main-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us-image {
+    width: 100%;
+}
+
+.contact-us-corporate-office-address-card {
+    width: 250px;
+    margin: 15px 0;
+    box-shadow: 0 4px 4px 0 #0000003f;
+    padding: 15px;
+    font-family: Roboto;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us-corporate-office-address-heading {
+    font-family: Roboto;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-us-input-element {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #0000003f;
+    padding: 5px;
+    font-family: Roboto;
+    margin-bottom: 20px;
+}
+
+.contact-us-textarea-element {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #0000003f;
+    padding: 5px;
+    font-family: Roboto;
+    min-height: 80px;
+    margin-bottom: 20px;
+}
+
+.contact-us-whome-to-contact-dropdown {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #0000003f;
+    padding: 5px;
+    font-family: Roboto;
+}
+
+.contact-us-send-button {
+    background-image: radial-gradient(#2b4944, #304047 60%);
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+@media(min-width:768px) {
+    .contact-us-element-container {
+        width: 800px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .contact-us-corporate-office-address-card {
+        margin-top: 70px;
+        margin-right: 70px;
+    }
+
+    .contact-us-input-element {
+        font-size: 16px;
+        padding: 10px;
+        margin-bottom: 30px;
+
+    }
+
+    .contact-us-textarea-element {
+        font-size: 16px;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+}

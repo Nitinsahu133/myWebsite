@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.link-component {
+  text-decoration: none;
+  color: #000000;
+}
